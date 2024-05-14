@@ -7,7 +7,7 @@ Endpoint: https://eaa47437-50b4-47f2-a32a-9ba6048f75f0-00-19l9zt9j8pxf9.worf.rep
 
 ### You may use the URL above or host your own both will be explained in this readme, if you host without changing the code (mind you you must change the port if your server uses a different port) the steps to using it will be exactly the same, you must check Section 2 for any instructions incase of any updates it may be updated there, for now the steps are relatively simple.
 
-## Section 1, Instructions on using: 
+## Section 1, Instructions on usage: 
 For the sake of keeping this simple, this example will use the url mentioned above however the steps are exactly the same using your own URL
 
 You can check if the URL is first up by simply going to the endpoint, which should respond with: "Hello, you are not using this correctly if you are here.", if this does not show up then the service is down (please alert me at haris.k.ismaili@gmail.com).
