@@ -64,4 +64,3 @@ Status: 1, There are errors either from the desired target or primary server in 
 2. Once the packages are installed you must verify that the port provided match your host, generally hosts allow you to do process.env.PORT however you must verify the port with your hosting service, and change the port to the requested port (look for const port = ... should be on line 2)
 3. Once the port has been changed you must simply run the script, you may use any node service or simply do `node index.js`
 4. And that's it, you must figure out your URL and use every knowledge gained from Section 1. replacing Endpoint with your own URL.
-- 
