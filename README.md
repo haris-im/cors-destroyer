@@ -57,7 +57,7 @@ Once the request has been sent you will receive the following object:
 Status: 0, There are no errors and the desired target's return will be inside "ret"
 Status: 1, There are errors either from the desired target or primary server in which case the message for the error will be inside "message"
 
-## Section 2, Setting your own Cors Destoryer
+## Section 2, Setting your own Cors Destoryer:
 1. The app uses NodeJS with the following packages:
 - Express (express) [npm install express]
 - Body Parser (body-parser) [npm install body-parser]
