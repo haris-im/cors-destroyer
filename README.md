@@ -2,8 +2,10 @@
 
 #### Ever wanted to make a request from front end to some server and you've had those annoying errors "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://google.com/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing)." pop up? Well no more with the Cors destroyer, it will make requests in your behalf and return the response back to you.
 
+
+# The public URL is currently unavailable due to cost, you will need to setup the project yourself on a domain with SSL to use it. Check back for an updated URL. Thank you!
 ## The version above has been hosted on the URL: 
-Endpoint: https://eaa47437-50b4-47f2-a32a-9ba6048f75f0-00-19l9zt9j8pxf9.worf.replit.dev/
+Endpoint: https://eaa47437-50b4-47f2-a32a-9ba6048f75f0-00-19l9zt9j8pxf9.worf.replit.dev/ (Currenty unavailable due to costs check back to see a public URL)
 
 ### You may use the URL above or host your own both will be explained in this readme, if you host without changing the code (mind you you must change the port if your server uses a different port) the steps to using it will be exactly the same, you must check Section 2 for any instructions incase of any updates it may be updated there, for now the steps are relatively simple.
 
@@ -61,6 +63,9 @@ Status: 1, There are errors either from the desired target or primary server in 
 1. The app uses NodeJS with the following packages:
 - Express (express) [npm install express]
 - Body Parser (body-parser) [npm install body-parser]
+- Cors (cors) [npm install cors]
+- Request (request) [npm install request]
+
 2. Once the packages are installed you must verify that the port provided match your host, generally hosts allow you to do process.env.PORT however you must verify the port with your hosting service, and change the port to the requested port (look for const port = ... should be on line 2)
 3. Once the port has been changed you must simply run the script, you may use any node service or simply do `node index.js`
 4. And that's it, you must figure out your URL and use every knowledge gained from Section 1. replacing Endpoint with your own URL.
