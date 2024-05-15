@@ -3,7 +3,7 @@
 #### Ever wanted to make a request from front end to some server and you've had those annoying errors "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://google.com/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing)." pop up? Well no more with the Cors destroyer, it will make requests in your behalf and return the response back to you.
 
 
-# The public URL is currently unavailable due to cost, you will need to setup the project yourself on a domain with SSL to use it. Check back for an updated URL. Thank you!
+# The public URL is currently unavailable due to cost, you will need to setup the project yourself on a domain with SSL to use it. Check back for an updated URL. Thank you! (For testing purposes to see how it works, you may test on non SSL websites using the URL: "http://de2.bot-hosting.net:21283/".
 ## The version above has been hosted on the URL: 
 Endpoint: https://eaa47437-50b4-47f2-a32a-9ba6048f75f0-00-19l9zt9j8pxf9.worf.replit.dev/ (Currenty unavailable due to costs check back to see a public URL)
 
