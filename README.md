@@ -1,3 +1,6 @@
+> [!WARNING]  
+> The script is meant to request from a website that allows outside requests to a website that has cors enabled (github disallows it's own scripts to go somewhere else therefore executing any example on this repo will simply not work. If you wish to test them go to any website that allows them i.e https://www.google.com).
+
 # Cors Destroyer
 ## The new URL is here! 
 - For any old member, the public resource wasn't working now it's back you may use the service without hosting one of your own. Thank you for your patience!
