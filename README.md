@@ -1,16 +1,19 @@
 > [!WARNING]  
 > The script is meant to request from a website that allows outside requests to a website that has cors enabled (github disallows it's own scripts to go somewhere else therefore executing any example on this repo will simply not work. If you wish to test them go to any website that allows them i.e https://youtube.com).
 
+> # Primary Usage
+> Either you want to buy a server or do not have the money to, or you simply wish to have a website without worrying of it's security. Instead of making a whole back-end for your website just to request to an API that does not allow coreless requests from another website, you can use the example server on your website application to absoltuely DESTROY those cors requirements.
+
 # Cors Destroyer
 ## The new URL is here! 
-- For any old member, the public resource wasn't working now it's back you may use the service without hosting one of your own. Thank you for your patience!
+- For any old member, the public resource wasn't working, now it's back, you may use the service without hosting one of your own. Thank you for your patience!
 
-#### Ever wanted to make a request from front end to some server and you've had those annoying errors "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://google.com/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing)." pop up? Well no more with the Cors destroyer, it will make requests in your behalf and return the response back to you.
+#### Ever wanted to make a request from the front end to some server and you've had those annoying errors "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://google.com/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing)." pop up? Well no more with the Cors destroyer, it will make requests in your behalf and return the response back to you.
 
 ## The version above has been hosted on the URL: 
 Endpoint: https://cors-destroyer.vercel.app/api 
 
-### You may use the URL above or host your own both will be explained in this readme, if you host without changing the code (mind you you must change the port if your server uses a different port) the steps to using it will be exactly the same, you must check Section 2 for any instructions incase of any updates it may be updated there, for now the steps are relatively simple.
+### You may use the URL above or host your own, both will be explained in this readme, if you host without changing the code (mind you you must change the port if your server uses a different port) the steps to using it will be exactly the same, you may check Section 2 for any further instructions. Incase of any updates it will be updated there, for now the steps are relatively simple.
 
 ## Section 1, Instructions on usage: 
 For the sake of keeping this simple, this example will use the url mentioned above however the steps are exactly the same using your own URL
@@ -39,7 +42,7 @@ fetch('https://cors-destroyer.vercel.app/api', {
 
 In this example you may notice 2 things, 1st. Items outside body are set and never change, 2nd. Items inside the first body are the request you're wanting to make. 
 
-1. You must do a POST request to Endpoint + /req which is the request endpoint
+1. You must do a POST request to Endpoint + /req (this means including the whole target endpoint i.e https://someapi.com/param1/param2 not just https://someapi.com/) which is the request endpoint
 2. Your initial headers which are the primary server's headers must include "Content-Type: text/plain" this is a requirement, if you do not have this it will not work.
 3. The JSON string body, you must add the whole body as a json string which should include the following:
 - method: String, The method type you wish to send to the desired target
@@ -49,7 +52,7 @@ In this example you may notice 2 things, 1st. Items outside body are set and nev
 
 Headers are optional, and will not be sent if not specified.
 Body is optional unless using a request such as POST or PUT in which case they are relatively required however if not provided an empty string will go to the desired target.
-The rest of the items from the above list are required.
+The rest of the items from the list above are required.
 
 Once the request has been sent you will receive the following object:
 ```
